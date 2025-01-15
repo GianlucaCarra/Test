@@ -8,6 +8,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    height: 100vh
+    height: 100vh;
+    overflow: scroll;
   }
 `;

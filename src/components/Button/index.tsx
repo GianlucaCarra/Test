@@ -1,9 +1,9 @@
 import IButton from "../../types/IButton";
 import { Container } from "./style";
 
-function Button({name}: IButton) {
+function Button({name, onClick}: IButton) {
   return (
-    <Container>
+    <Container onClick={onClick} href="/form">
       {name}
     </Container>
   );

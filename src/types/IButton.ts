@@ -1,5 +1,6 @@
 interface IButton {
-    name: string
+    name: string;
+    onClick?: () => void; 
 }
 
 export default IButton;
