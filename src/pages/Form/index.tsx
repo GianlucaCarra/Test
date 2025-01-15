@@ -7,14 +7,14 @@ function Form() {
     <Container>
       <form action="" className="login-form">
         <div className="inp">
-          <InputField name="E-mail" />
-          <InputField name="Senha" />
-          <InputField name="Senha" />
-          <InputField name="Senha" />
+          <InputField name="Escolha seu Usuario" />
+          <InputField name="Escolha o banco" />
+          <InputField name="Escolha a data" />
+          <InputField name="Escolha o horario" />
         </div>
     
         <div className="btn">
-        <Button name="LogIn" />
+        <Button name="Continuar" />
         </div>
       </form>
 
